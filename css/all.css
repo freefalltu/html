@@ -1,0 +1,17 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	font-family: "Roboto";
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+
+}
+ 
+footer, header, h2, section {
+	display: block;
+}

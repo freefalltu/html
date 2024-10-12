@@ -1,0 +1,29 @@
+.header {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.header__container {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__social-media {
+    margin-right: 45px;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    margin-left: 75px;
+}
+
+.header__social-item {
+    padding-right: 40px;
+}
