@@ -6,6 +6,7 @@
 .about__container {
     margin: 0 auto;
     padding: 0 85px;
+    max-width: 1352px;
 }
 
 .about__container-title {
@@ -38,7 +39,7 @@
     grid-template-columns: 460px 788px;
     grid-template-rows: 196px 196px;
     gap: 32px 35px;
-    width: 1326px;
+    max-width: 1352px;
     border: none;
 }
 

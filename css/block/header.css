@@ -1,14 +1,14 @@
 .header {
-    display: block;
     position: absolute;
     width: 100%;
 }
 
 .header__container {
-    margin-top: 19px;
+    margin: 0 auto;
+    padding: 20px 36px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    max-width: 1352px;
 }
 
 .header__social-media {

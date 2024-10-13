@@ -12,6 +12,6 @@
 
 }
  
-footer, header, h2, section {
+footer, header, h2, div, section {
 	display: block;
 }

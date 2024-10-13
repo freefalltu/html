@@ -26,8 +26,7 @@
 }
 
 .cyberpunk__container-banner {
-    width: 624px;
-    height: 367px;
+    max-width: 624px;
     position: relative;
     padding: 70px;
     background-color: rgb(248, 242, 0);
@@ -37,8 +36,8 @@
 
 .cyberpunk__container {
     margin: 0 auto;
-    padding: 0 70px;
-    max-width: 1400px;
+    padding: 0 36px;
+    max-width: 1352px;
     height: 0;
     display: flex;
     align-items: flex-end;

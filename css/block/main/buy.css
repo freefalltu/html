@@ -1,17 +1,27 @@
 .buy {
-    display: flex;
-    flex-direction: row;
+    position: relative;
     color: white;
     background-color: black;
+    justify-content: center;
 }
 .buy__image {
-    width: 720px;
-    height: 716px;
+    left: 0;
+    top: 0;
+    width: 50%;
+    max-width: 944px;
+    height: auto;
     object-fit: cover;
 }
 
+.buy__container {
+    margin: 0 auto;
+    padding: 0 36px;
+    max-width: 1352px;
+    display: flex;
+}
+
 .buy__content {
-    width: 624px;
+    width: 50%;
     padding-top: 70px;
     padding-bottom: 65px;
     padding-left: 16px;
