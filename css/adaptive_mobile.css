@@ -40,11 +40,11 @@
     .cyberpunk__container-banner {
         max-width: none;
         height: 180px;
-        padding: 20px 30px;
+        padding: 30px 30px 20px;
     }
 
     .cyberpunk__container-banner-click {
-        padding: 10px 20px;
+        padding: 20px 40px;
     }
 
     .cyberpunk__container-banner-title {
@@ -108,7 +108,7 @@
         padding: 0;
         padding-top: 150px;
         background-position-y: top;
-        background-position-x: center;
+        background-position-x: left;
     }
 
     .promo__container-text{
