@@ -17,3 +17,9 @@
 @import url(block/main/buy.css);
 
 @import url(block/footer.css);
+
+@import url(adaptive_pc.css);
+
+@import url(adaptive_pad.css);
+
+@import url(adaptive_mobile.css);
