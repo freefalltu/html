@@ -1,0 +1,25 @@
+@import url(all.css);
+
+@import url(fonts.css);
+
+@import url(block/header.css);
+
+@import url(block/main/main.css);
+
+@import url(block/main/cyberpunk.css);
+
+@import url(block/main/about.css);
+
+@import url(block/main/promo.css);
+
+@import url(block/main/hp.css);
+
+@import url(block/main/buy.css);
+
+@import url(block/footer.css);
+
+@import url(adaptive_pc.css);
+
+@import url(adaptive_pad.css);
+
+@import url(adaptive_mobile.css);
