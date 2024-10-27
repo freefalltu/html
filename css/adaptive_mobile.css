@@ -14,6 +14,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        position: relative;
     }
     
     .header__social-media {
@@ -33,6 +34,14 @@
         width: 270px;
     }
 
+    .header__menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 50px 36px;
+        max-width: 300px;
+    }
+    
     .cyberpunk__img-container {
         height: 600px;
     }
