@@ -162,7 +162,7 @@ body.__touch .header__menu-items > li.__active .header__menu-item-arrow {
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .menu__icon {
         z-index: 5;
         display: block;
