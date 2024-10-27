@@ -7,6 +7,7 @@
     <title>Cyberpunk</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="pictures/icon/icon.png">
+    <script src="js/project.js" defer></script>
 </head>
 
 <body>
@@ -36,9 +37,40 @@
                 </a>
             </div>
         </div>
+        <div class="menu__icon">
+            <span></span>
+        </div>
+        <menu class="header__menu">
+            <ul class="header__menu-items">
+                <li>
+                    <a data-goto=".cyberpunk" href="#main" class="header__menu-item-link">Main</a>
+                    <span class="header__menu-item-arrow"></span>
+                    <ul class="menu__sub-list">
+                        <li>
+                            <a href="#" class="menu__sub-link">link 1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu__sub-link">link 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a data-goto=".about" href="#about" class="header__menu-item-link">About</a>
+                </li>
+                <li>
+                    <a data-goto=".promo" href="#promo" class="header__menu-item-link">Promo</a>
+                </li>
+                <li>
+                    <a data-goto=".hp" href="#hp" class="header__menu-item-link">Hp</a>
+                </li>
+                <li>
+                    <a data-goto=".buy" href="#buy" class="header__menu-item-link">Buy</a>
+                </li>
+            </ul>
+        </menu>
     </header>
     <main class="main">
-        <section class="cyberpunk">
+        <section class="cyberpunk" id="main">
             <div class="cyberpunk__img-container"></div>
             <div class="cyberpunk__container">
                 <div class="cyberpunk__container-banner">
@@ -47,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__container">
                 <h2 class="about__container-title">Найт-Сити изменит тебя навсегда!</h2>
                 <p class="about__container-game">
@@ -73,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="promo">
+        <section class="promo" id="promo">
             <div class="promo__container">
                 <h2 class="promo__container-title">Играй и выигрывай!</h2>
                 <p class="promo__container-text">
@@ -109,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="hp">
+        <section class="hp" id="hp">
             <div class="hp__container">
                 <div class="hp__container-left">
                     <img class="container-left__monitor" src="pictures/hp/monitor.png" alt="monitor">
@@ -138,7 +170,7 @@
                 </div>
             </div>
         </section>
-        <section class="buy">
+        <section class="buy" id="buy">
             <div class="buy__container">
                 <img class="buy__image" src="pictures/buy/covers.jpg" alt="covers">
                 <div class="buy__content">
